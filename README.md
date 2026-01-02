@@ -13,11 +13,11 @@ makeblastdb -in card_proteins.fasta -dbtype prot -out CARD_prot
 Run BLAST+ alignment:
 ###### For when you want to align a nucleotide query with a nucleotide database:
 ```
-blastn -db CARD_nucl -query sequences.fasta -out results_nucleotide.out
+blastn -db CARD_nucl -query sequences.fasta -out results_nucleotide.out -outfmt 7
 ```
 ###### For when you want to align a nucleotide query with a protein database:
 ```
-blastx -db CARD_prot -query sequences.fasta -out results_proteins.out
+blastx -db CARD_prot -query sequences.fasta -out results_proteins.out -outfmt 7
 ```
 
 
