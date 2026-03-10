@@ -1,5 +1,5 @@
 # This code creates a dictionary for AROS.
-# One can use it to check for duplicates (dictionary value > 1).
+# Can be used to check for duplicates (dictionary value > 1).
 
 def AROcounter(file):
     d = {}
@@ -24,4 +24,5 @@ ds = AROcounter(files)
 for ARO in ds:
     if ds[ARO] > 1:
         print(ARO)
+
 '''
