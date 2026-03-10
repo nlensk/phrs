@@ -1,3 +1,8 @@
+"""
+@author: Nadia Lenskaia 2025
+All rights reserved.
+"""
+
 # This code creates a dictionary for AROS.
 # Can be used to check for duplicates (dictionary value > 1).
 
@@ -10,7 +15,7 @@ def AROcounter(file):
             if ARO not in d:
                 d[ARO] = 1
             else:
-                d[ARO] += 1 
+                d[ARO] += 1     
             #if d[ARO] > 1:
             #   print(ARO)
     return d
@@ -26,3 +31,4 @@ for ARO in ds:
         print(ARO)
 
 '''
+
