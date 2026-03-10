@@ -19,9 +19,6 @@ for line in ids:
     line = line.split("\\")[0]
     t_ids.append(line[0:11])
 
-#print(t_ids)
-#print(t_ids)
-
 
 f.close()
 
@@ -38,8 +35,6 @@ for line in pids:
     line = line.split("|")[0]
     line = line.split("\\")[0]
     t_pids.append(line[0:11])
-    #print(t_pids)
-    #input()
 
 f.close()
 
@@ -49,7 +44,8 @@ t_pids = [1, 1, 1, 1, 5, 5, 3]
 
 for element in t_ids:
     if element not in t_pids:
-        print(element + "NOT INM PIDS")
+        print(element + "NOT IN PIDS")
     
+
 
 print(len(t_ids), len(t_pids))
