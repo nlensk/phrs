@@ -5,7 +5,7 @@ All rights reserved.
 
 # This code checks if the ids in a pair of nucleotide and protein files overlap
 
-fname = "ALLLLL_nucleotides.out"
+fname = "nucleotide_file.out"
 f = open(fname, "r")
 ids = []
 t_ids = []
@@ -22,7 +22,7 @@ for line in ids:
 
 f.close()
 
-fname = "ALLLLL_protein.out"
+fname = "protein_file.out"
 f = open(fname, "r")
 pids = []
 t_pids = []
@@ -49,3 +49,4 @@ for element in t_ids:
 
 
 print(len(t_ids), len(t_pids))
+
