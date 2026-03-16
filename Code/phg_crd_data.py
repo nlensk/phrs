@@ -28,7 +28,7 @@ f.close()
     
     
     
-    
+  
 path = "C:\\bioinfo\\Phage_ Card\\"
 fname = "sequences.fasta"
 #fname = "test.fasta"
