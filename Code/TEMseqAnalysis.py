@@ -5,14 +5,15 @@ All rights reserved.
 
 # This script outputs sequence lengths in a file
 
-file = open("sequence_file.fasta", "r")
+file = open("sequence_file", "r")
 lines = file.readlines()
 file.close()
-fOut = open("output_sequence_file.txt", "w")
+fOut = open("output_sequence_file", "w")
 
 counter = 0
 d = {}
 
+# Creates a dictrionary where the key is the id
 for line in lines:
     if ">" in line:
         line = line.split(">")[1]
@@ -20,7 +21,7 @@ for line in lines:
         if line not in d:
             d[line] = ""
             
-
+# Adds the sequences corresponding to the ids as the dictionary values
 for line in lines:
     if ">" in line:
         dline = line
