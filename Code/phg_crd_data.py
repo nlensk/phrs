@@ -2,73 +2,32 @@
 @author: Nadia Lenskaia 2025
 All rights reserved.
 """
+# This code creates a dictionary where the headers are the keys and the sequences are the values
 
-# splits header and genomes and can be used to find the length of sequences
-
-path = "C:\\bioinfo\\Phage_ Card\\"
-fname = "numbers.txt"
-d = {}
-f = open(path + fname, "r")
-
-for line in f: 
-    line = line.strip()
-    t_line = line.split("\t")
-    ##print(t_line)
-    d[t_line[0]] = int(t_line[1])
-    #print(d)
-    #break
-#print(d)
-
-f.close()
-
-
-#if "NC_001825.1" in d:
-    #print(d["NC_001825.1"])
-    
-    
-    
-    
-  
-path = "C:\\bioinfo\\Phage_ Card\\"
-fname = "sequences.fasta"
-#fname = "test.fasta"
-f = open(path + fname, "r")
+''''''
 t_seq = []
-
-
-
+''''''
 
 def genomestring(t):
-    
-    
     header = t[0]
     header = header.strip()
     header = header.split(" |")
     header = header[0]
     header = header[1:]
-    
-    #ff = open(path + "fna\\" + header + ".fasta", "w")
-    #ff.write(t[0])
-    
-    #print(header)
+
     t = t[1:]
     genome = ""
     
     for line in t:
         #ff.write(line)
         line = line.strip()
-        genome += line
+        genome += lin    
         
-    #print(genome)        
-        
-    
-    #print(header, t)
-    #ff.close()
     return [header, genome]
     
 
-fname = "NC_048030.1.fasta"
-f = open(path + "fna\\" + fname, "r")
+fname = "example.fasta"
+f = open(fname, "r")
 t1 = f.readlines()
 f.close()
 
