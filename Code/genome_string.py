@@ -3,6 +3,7 @@
 All rights reserved.
 """
 # This code creates a dictionary where the headers are the keys and the sequences are the values
+# Only works for individual sequence fasta files
 
 def genomestring(t):
     header = t[0]
