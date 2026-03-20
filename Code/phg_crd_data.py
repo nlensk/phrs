@@ -44,14 +44,7 @@ for line in f:
             seq_id = res[0]
             seq = res[1]
             n_seq = len(seq)
-            
-            if seq_id in d:
-                if d[seq_id] != n_seq:
-                    print("ERRORORORORORO" + seq_id)
-                    break
-                #else:
-                    #print("check yay" + seq_id)
-            #print(t_seq)
+            print(seq_id, n_seq)
             t_seq = []
     t_seq.append(line)
 
@@ -59,16 +52,7 @@ res = genomestring(t_seq)
 seq_id = res[0]
 seq = res[1]
 n_seq = len(seq)
-
-if seq_id in d:
-    if d[seq_id] != n_seq:
-        print("ERRORORORORORO" + seq_id) 
-    else:
-        print("check yay" + seq_id)
-
-    
-    #print(t_seq)
-    #input()
+print(seq_id, n_seq)
 
 f.close()
 
