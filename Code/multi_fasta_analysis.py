@@ -1,6 +1,5 @@
-''''''
-t_seq = []
-''''''
+# This code allows you to extract fasta sequences for the purpose of further analysis
+
 
 def genomestring(t):
     header = t[0]
@@ -25,11 +24,8 @@ f = open(fname, "r")
 t1 = f.readlines()
 f.close()
 
-res = genomestring(t1)
-print(res[0], len(res[1]))
 
-
-"""
+t_seq = []
 
 for line in f:
     if ">" in line[0]:
