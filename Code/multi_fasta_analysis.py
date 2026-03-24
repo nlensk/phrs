@@ -14,7 +14,7 @@ def genomestring(t):
     for line in t:
         #ff.write(line)
         line = line.strip()
-        genome += lin    
+        genome += line    
         
     return [header, genome]
     
@@ -45,6 +45,3 @@ n_seq = len(seq)
 print(seq_id, n_seq)
 
 f.close()
-
-
-"""
