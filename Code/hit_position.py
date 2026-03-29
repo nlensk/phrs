@@ -1,6 +1,11 @@
-# make a dictionary where the key is the alignment slengths and the values are how often they occur.
+"""
+@author: Nadia Lenskaia 2025
+All rights reserved.
+"""
+# This code analyzes the location of blast hits in a text file.
+# One can use this code to check the location of hits.
 
-f = open("NC_042128.1_300hits.txt", "r")
+f = open("hit_example.txt", "r")
 d = {}
 
 
