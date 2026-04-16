@@ -1,5 +1,5 @@
 """
-@author: Nadia Lenskaia 2025
+@author: Nadia Lenskaia 2026
 All rights reserved.
 """
 
