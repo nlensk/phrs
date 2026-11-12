@@ -1,7 +1,8 @@
-TITLE
+## Raw BLAST results
 
-6_results_nucleotide.out - WHATS IN THE FILE
-6_results_proteins.out - WHATS IN THE FILE
+**6_results_nucleotide.out** - Each row is a *nucleotide* BLAST hit between a phage genome and a known resistome ARO <br>
+**6_results_proteins.out** - Each row is a *protein* BLAST hit between a phage genome and a known resistome ARO <br>
+<br>
 
-COLUMN NAMES
-Genome ids	Database Ids	% identical matches	Alignment length	# mismatches	# gap openings	qstart	qend	sstart	send	evalue	bitscore
+**Column Names** <br>
+<pre>Genome_Ids  Database_Ids  %_identical_matches  Alignment_length  #_mismatches	#_gap openings	qstart	qend	sstart	send	evalue	bitscore</pre>
