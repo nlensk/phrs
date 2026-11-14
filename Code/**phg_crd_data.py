@@ -4,9 +4,8 @@ All rights reserved.
 """
 # This code creates a dictionary where the headers are the keys and the sequences are the values
 
-''''''
 t_seq = []
-''''''
+
 
 def genomestring(t):
     header = t[0]
@@ -36,7 +35,7 @@ print(res[0], len(res[1]))
 
 
 """
-
+https://github.com/nlensk/phrs/tree/main/Code
 for line in f:
     if ">" in line[0]:
         if t_seq != []:
@@ -96,7 +95,6 @@ fname = "sequences.fasta"
 #fname = "test.fasta"
 f = open(path + fname, "r")
 carrots = 0
-print(carrots)
 
 for line in f:
     #print(line[0])
