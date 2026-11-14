@@ -3,7 +3,7 @@
 All rights reserved.
 """
 # This code analyzes the location of blast hits in a text file.
-# One can use this code to check the location of hits.
+# This code can be used to check the location of hits.
 
 f = open("hit_example.txt", "r")
 d = {}
@@ -23,19 +23,5 @@ for lines in f:
 for position in d:
     print(position, d[position])    
             
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 f.close()
-
