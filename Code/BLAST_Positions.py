@@ -2,10 +2,9 @@
 @author: Nadia Lenskaia 2025
 All rights reserved.
 """
-# This code analyzes the location of blast hits in a text file.
-# This code can be used to check the location of hits.
+# This code takes a BLAST file and creates a dictionary where the keys are the positions (formatted as start:end) and the values are how often they occur
 
-f = open("hit_example.txt", "r")
+f = open("BLAST.txt", "r")
 d = {}
 
 
