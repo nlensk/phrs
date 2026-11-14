@@ -2,6 +2,7 @@
 This directory contains code that I created for analyzing phage resistomes.
 
 __ARO_library:__ Creates a dictionary for AROS. <br>
+__ARO_Names:__ Vreates a dictionary where keys are ARO names and values are the AROS associated with them
 __TEMseqAnalysis:__ Outputs sequence lengths in a file. <br>
 __check_ids:__ Checks if the ids in a pair of nucleotide and protein files overlap. <br>
 __genome_string:__ Creates a dictionary where the headers are the keys and the sequences are the values. <br>
