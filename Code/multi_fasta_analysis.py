@@ -1,5 +1,4 @@
-# This code allows you to extract fasta sequences for the purpose of further analysis
-
+# This code extracts fasta sequences for the purpose of further analysis
 
 def genomestring(t):
     header = t[0]
