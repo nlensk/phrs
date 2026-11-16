@@ -1,3 +1,8 @@
+"""
+@author: Nadia Lenskaia 2026
+All rights reserved.
+"""
+
 # This code extracts fasta sequences for the purpose of further analysis
 
 def genomestring(t):
@@ -11,7 +16,6 @@ def genomestring(t):
     genome = ""
     
     for line in t:
-        #ff.write(line)
         line = line.strip()
         genome += line    
         
