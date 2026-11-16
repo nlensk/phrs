@@ -16,12 +16,10 @@ def AROcounter(file):
                 d[ARO] = 1
             else:
                 d[ARO] += 1     
-            #if d[ARO] > 1:
-            #   print(ARO)
     return d
 
+
 # Example of how this function can be used.
-'''
 files = open("card_nucleotide.fasta", "r")
 
 ds = AROcounter(files)
@@ -30,4 +28,4 @@ for ARO in ds:
     if ds[ARO] > 1:
         print(ARO)
 
-'''
+files.close()
