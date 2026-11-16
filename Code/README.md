@@ -1,8 +1,8 @@
 # Code
 This directory contains code that I created for analyzing phage resistomes.
 
-__ARO_library:__ Creates a dictionary for AROS. <br>
-__ARO_Names:__ **** Creates a dictionary where keys are ARO names and values are the AROS associated with them <br>
+__ARO_Duplicates:__ ****Creates a dictionary for AROs, can be used to find duplicate AROs. <br>
+__ARO_Names:__ **** Creates a dictionary where keys are ARO names and values are the AROs associated with them <br>
 __Sequence_Analysis:__ **** Outputs sequence lengths in a file. <br>
 __check_ids:__ Checks if the ids in a pair of nucleotide and protein files overlap. <br>
 __BLAST_Positions:__ **** Analyzes the location of blast hits. <br>
