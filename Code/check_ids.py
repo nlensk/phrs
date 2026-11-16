@@ -38,10 +38,6 @@ for line in pids:
 
 f.close()
 
-
-t_ids = [1, 1, 5]
-t_pids = [1, 1, 1, 1, 5, 5, 3]
-
 for element in t_ids:
     if element not in t_pids:
         print(element + "NOT IN PIDS")
