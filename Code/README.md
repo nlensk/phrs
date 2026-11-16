@@ -1,12 +1,12 @@
 # Code
 This directory contains code that I created for analyzing phage resistomes.
 
-__ARO_Duplicates:__ ****Creates a dictionary for AROs, can be used to find duplicate AROs. <br>
-__ARO_Names:__ **** Creates a dictionary where keys are ARO names and values are the AROs associated with them <br>
-__Sequence_Analysis:__ **** Outputs sequence lengths in a file. <br>
-__ID_Overlap:__ ****Checks if the ids in a pair of nucleotide and protein files overlap. <br>
-__BLAST_Positions:__ **** Analyzes the location of blast hits. <br>
-__Reverse_Compliment:__ ****Takes a sequence and outputs its reverse compliment counterpart <br>
-__Genetic_Code:__ **** Takes a nucleotide sequence and translates it into a protein sequence <br>
+__ARO_Duplicates:__ Creates a dictionary for AROs, can be used to find duplicate AROs. <br>
+__ARO_Names:__ Creates a dictionary where keys are ARO names and values are the AROs associated with them <br>
+__BLAST_Positions:__ Analyzes the location of blast hits. <br>
 __Coverage_Calculator:__ Compares hits and outputs the ones that are above a set threshold (e.g. over 50% identity) <br>
-__Fasta_Sequences:__ **** Extracts fasta sequences for the purpose of further analysis
+__Fasta_Sequences:__ Extracts fasta sequences for the purpose of further analysis <br>
+__Genetic_Code:__ Takes a nucleotide sequence and translates it into a protein sequence <br>
+__ID_Overlap:__ Checks if the ids in a pair of nucleotide and protein files overlap. <br>
+__Reverse_Compliment:__ Takes a sequence and outputs its reverse compliment counterpart <br>
+__Sequence_Analysis:__ Outputs sequence lengths in a file. <br>
