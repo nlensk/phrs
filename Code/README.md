@@ -8,5 +8,5 @@ __ID_Overlap:__ ****Checks if the ids in a pair of nucleotide and protein files 
 __BLAST_Positions:__ **** Analyzes the location of blast hits. <br>
 __Reverse_Compliment:__ ****Takes a sequence and outputs its reverse compliment counterpart <br>
 __Genetic_Code:__ **** Takes a nucleotide sequence and translates it into a protein sequence <br>
-__ProteinHitAnalyzer_Threshold:__ Compares hits and outputs the hits that are above a set threshold (e.g. over 50% identity) <br>
+__Coverage_Calculator:__ Compares hits and outputs the ones that are above a set threshold (e.g. over 50% identity) <br>
 __Fasta_Sequences:__ **** Extracts fasta sequences for the purpose of further analysis
