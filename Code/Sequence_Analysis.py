@@ -3,12 +3,12 @@
 All rights reserved.
 """
 
-# This script outputs sequence lengths in a file
+# This code creates a dictionary where the keys are the genome ids and values are the sequences corresponding to them
 
-file = open("sequence_file", "r")
+file = open("sequence_file.txt", "r")
 lines = file.readlines()
 file.close()
-fOut = open("output_sequence_file", "w")
+fOut = open("output_sequence_file.txt", "w")
 
 counter = 0
 d = {}
@@ -40,7 +40,3 @@ for line in lines:
             
          
 fOut.close()
-                
-    
-#print(d)
-#print(len(d))
