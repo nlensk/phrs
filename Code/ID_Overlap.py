@@ -41,7 +41,5 @@ f.close()
 for element in t_ids:
     if element not in t_pids:
         print(element + "NOT IN PIDS")
-    
-
-
-print(len(t_ids), len(t_pids))
+        
+#print(len(t_ids), len(t_pids))
