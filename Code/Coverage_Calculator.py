@@ -3,7 +3,7 @@
 All rights reserved.
 """
 
-#This code compares the length of the hit to the length of its resitome
+#This code compares the length of a hit to the length of its resitome
 fname = "card_proteins.fasta"
 f = open(fname, "r")
 lines = f.readlines()
@@ -31,12 +31,7 @@ for line in lines:
     t.append(line)
     
 daro = aroDict(t, daro)
-     
-'''    
-for z in daro:
-    print(z, daro[z])
-'''
-
+    
 
 
 
@@ -50,7 +45,7 @@ f = open(path + fname, "r")
 lines = f.readlines()
 f.close()
 
-#lines = lines[1:]
+
 d = {}
 
 for line in lines:
@@ -61,13 +56,13 @@ for line in lines:
     if gid not in d:
         d[gid] =  []
     d[gid].append(line)   
-    #break
+  
     
-#print(d)
+
 counter = 0
 thresh = 70
-#-------------------------------------------------------  
-#fout = open("lengthProteinHitsResults_test1.txt", "w")
+
+
 sp="\t"
 fout = open("log2.0_70.txt", "w")
 print("gid", "# of hits", "threshold", "hits above threshold", file=fout, sep=sp)
@@ -83,10 +78,8 @@ for gid in d:
             aroLength = len(daro[aro])
         if aroLength > 0:
             percent = (hitLength / aroLength) * 100
-            #print(gid, aro, hitLength, aroLength, perItent, bitScore, round(percent, 2), file = fout, sep = "\t")
             if (float(perItent) > thresh) and (percent > thresh):
                 counter += 1
     print(gid, len(t_hits), thresh, counter, file=fout, sep=sp)
     counter = 0        
-    #break
 fout.close()
